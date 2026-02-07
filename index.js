@@ -214,11 +214,9 @@ const client = new Client({
             '--disable-accelerated-2d-canvas',
             '--no-first-run',
             '--no-zygote',
-            '--single-process',
-            '--disable-setuid-sandbox',
             '--disable-gpu'
-        ],
-        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'
+        ]
+        // HAPUS executablePath
     },
     webVersionCache: {
         type: 'remote',
