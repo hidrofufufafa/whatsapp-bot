@@ -5,3 +5,8 @@ data/
 *.log
 .DS_Store
 package-lock.json
+.wwebjs_cache/
+.wwebjs_cache/
+
+Git-2.53.0-64-bit.exe
+node-v24.13.0-x64.msi
