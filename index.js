@@ -215,9 +215,10 @@ const client = new Client({
             '--no-first-run',
             '--no-zygote',
             '--single-process',
+            '--disable-setuid-sandbox',
             '--disable-gpu'
         ],
-        executablePath: process.env.CHROME_BIN || undefined
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'
     },
     webVersionCache: {
         type: 'remote',
