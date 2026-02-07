@@ -1,5 +1,13 @@
 [phases.setup]
-nixPkgs = ["chromium", "nodejs-18_x"]
+nixPkgs = [
+    "chromium",
+    "nodejs-18_x",
+    "glib",
+    "nss",
+    "atk",
+    "cups",
+    "libxcomposite"
+]
 
 [phases.install]
 cmds = ["npm install"]
